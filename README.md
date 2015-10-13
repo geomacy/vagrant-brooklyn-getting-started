@@ -7,13 +7,15 @@ This assumes you have already installed Virtualbox and Vagrant on your local mac
 
 1. Clone this repo
 
+    ```
     git clone https://github.com/johnmccabe/vagrant-brooklyn-getting-started.git
+    ```
 
 2. Cd into the repo and run vagrant up
 
+    ```
     cd vagrant-brooklyn-getting-started
     vagrant up
+    ```
 
-3. Connect to the Brooklyn Web Console
-
-    http://localhost:8081
+3. Connect to the [Brooklyn Web Console](http://localhost:8081/)
