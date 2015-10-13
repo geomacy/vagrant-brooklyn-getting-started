@@ -1,0 +1,12 @@
+[Unit]
+Description=Apache Brooklyn service
+Documentation=https://brooklyn.incubator.apache.org/documentation/index.html
+
+[Service]
+ExecStart=/home/vagrant/apache-brooklyn-0.8.0-incubating-bin/bin/brooklyn launch
+Restart=on-abort
+User=vagrant
+Group=vagrant
+
+[Install]
+WantedBy=multi-user.target
