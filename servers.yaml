@@ -3,6 +3,7 @@
   box: ubuntu/vivid64
   ram: 2048
   cpus: 4
+  ip: 10.10.10.100
   forwarded_ports:
    - guest: 8081
      host: 8081
@@ -15,3 +16,18 @@
     - cp /vagrant/brooklyn.properties /home/vagrant/.brooklyn/
     - chmod 600 /home/vagrant/.brooklyn/brooklyn.properties
     - sudo systemctl start brooklyn
+- name: byon1
+  box: ubuntu/trusty64
+  ram: 512
+  cpus: 2
+  ip: 10.10.10.101
+- name: byon2
+  box: ubuntu/trusty64
+  ram: 512
+  cpus: 2
+  ip: 10.10.10.102
+- name: byon3
+  box: ubuntu/trusty64
+  ram: 512
+  cpus: 2
+  ip: 10.10.10.103
