@@ -1,5 +1,5 @@
 # vagrant-brooklyn-getting-started
-Vagrant files to bootstrap Apache Brooklyn Getting Started example
+Vagrant files to bootstrap [Apache Brooklyn Getting Started example](https://brooklyn.incubator.apache.org/v/latest/start/running.html).
 
 ## How to use
 
