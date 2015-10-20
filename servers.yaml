@@ -31,3 +31,8 @@
   ram: 512
   cpus: 2
   ip: 10.10.10.103
+- name: byon4
+  box: ubuntu/trusty64
+  ram: 512
+  cpus: 2
+  ip: 10.10.10.104
