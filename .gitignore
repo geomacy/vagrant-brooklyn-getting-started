@@ -1,3 +1,11 @@
 .vagrant
 ignored
 brooklyn-persistence
+.idea
+*.iml
+*.tar.gz
+*-SNAPSHOT
+*-bin
+*.gz
+*.log
+jdk1.8.0_65
