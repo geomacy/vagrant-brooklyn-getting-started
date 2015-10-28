@@ -10,7 +10,7 @@
   shell:
     - curl -o apache-brooklyn-0.8.0-incubating-bin.tar.gz -s -S http://apache.mirror.anlx.net/incubator/brooklyn/apache-brooklyn-0.8.0-incubating/apache-brooklyn-0.8.0-incubating-bin.tar.gz
     - tar zxf apache-brooklyn-0.8.0-incubating-bin.tar.gz
-    - export DEBIAN_FRONTEND=noninteractive; sudo apt-get install --yes openjdk-8-jre-headless
+    - sudo sh -c 'export DEBIAN_FRONTEND=noninteractive; apt-get install --yes openjdk-8-jre-headless'
     - sudo ln -s /vagrant/brooklyn.service /etc/systemd/system/brooklyn.service
     - mkdir -p /home/vagrant/.brooklyn
     - cp /vagrant/brooklyn.properties /home/vagrant/.brooklyn/
@@ -36,3 +36,4 @@
   ram: 512
   cpus: 2
   ip: 10.10.10.104
+...
