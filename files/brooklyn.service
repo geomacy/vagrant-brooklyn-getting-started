@@ -3,7 +3,7 @@ Description=Apache Brooklyn service
 Documentation=https://brooklyn.incubator.apache.org/documentation/index.html
 
 [Service]
-ExecStart=/home/vagrant/apache-brooklyn-0.8.0-incubating-bin/bin/brooklyn launch
+ExecStart=/home/vagrant/apache-brooklyn-0.8.0-incubating-bin/bin/brooklyn launch --persist auto --persistenceDir /vagrant/brooklyn-persistence
 Restart=on-abort
 User=vagrant
 Group=vagrant
