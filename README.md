@@ -29,7 +29,7 @@ The supplied `server.yaml` contains both a Brooklyn node and 3 small BYON nodes,
 1. From the repo directory you can start the BYON nodes with. (Note that you can add additional nodes to `server.yaml` if desired)
 
     ```
-    vagrant up byon1 byon2 byon3
+    vagrant up byon1 byon2 byon3 byon4
     ```
 
 2. They will be availble to add to your blueprint with the following location
@@ -43,4 +43,5 @@ The supplied `server.yaml` contains both a Brooklyn node and 3 small BYON nodes,
           - 10.10.10.101
           - 10.10.10.102
           - 10.10.10.103
+          - 10.10.10.104
     ````
