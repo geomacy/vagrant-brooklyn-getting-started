@@ -22,7 +22,7 @@ The supplied `server.yaml` contains both a Brooklyn node and 3 small BYON nodes,
     vagrant up brooklyn
     ```
 
-3. Connect to the [Brooklyn Web Console](http://localhost:8081/)
+3. Connect to the [Brooklyn Web Console](http://10.10.10.100:8081/)
 
 ### Starting BYON Nodes
 
