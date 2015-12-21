@@ -45,3 +45,22 @@ The supplied `server.yaml` contains both a Brooklyn node and 3 small BYON nodes,
           - 10.10.10.103
           - 10.10.10.104
     ````
+### View Brooklyn Logs
+
+1. To view logs you must first connect to the brooklyn VM (from the root of this repository):
+
+    ```
+    vagrant ssh brooklyn
+    ```
+
+2. As Brooklyn is being started by systemd in this VM you can view the logs from the brooklyn unit as follows:
+
+    ```
+    sudo journalctl -u brooklyn
+    ```
+    
+    Alternatively you can view them directly in the syslog:
+
+    ```
+    sudo tail -f /var/log/syslog
+    ```
