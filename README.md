@@ -45,6 +45,7 @@ The supplied `server.yaml` contains both a Brooklyn node and 3 small BYON nodes,
           - 10.10.10.103
           - 10.10.10.104
     ````
+
 ### View Brooklyn Logs
 
 1. To view logs you must first connect to the brooklyn VM (from the root of this repository):
